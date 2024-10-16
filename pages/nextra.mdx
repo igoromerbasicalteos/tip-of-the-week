@@ -1,0 +1,105 @@
+import { Callout, Cards, FileTree, Steps, Tabs } from "nextra/components";
+
+# Nextra
+
+This page has been build with [Nextra](https://nextra.site/docs) based on [Next.js](https://nextjs.org/) and the [Nextra Doc](https://nextra.site/docs/docs-theme) theme.
+
+---
+
+## Features
+
+Here is a collection for easy usage of available components and features that can be used in this documentation.
+
+### [Table](https://nextra.site/docs/guide/advanced/table)
+
+| Tables   |      Are      |  Cool |
+| -------- | :-----------: | ----: |
+| col 1 is | left-aligned  | $1600 |
+| col 2 is |   centered    |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+### [Callout](https://nextra.site/docs/guide/built-ins/callout)
+
+<Callout emoji="👾">
+  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
+  Nishikado.
+</Callout>
+
+<Callout type="info" emoji="ℹ️">
+  Today is Friday.
+</Callout>
+
+<Callout type="warning" emoji="⚠️">
+  This API will be deprecated soon.
+</Callout>
+
+<Callout type="error" emoji="️🚫">
+  This is a dangerous feature that can cause everything to explode.
+</Callout>
+
+### [Codeblocks](https://nextra.site/docs/guide/syntax-highlighting)
+
+```js showLineNumbers copy filename="example.js"
+import { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  return <button onClick={() => setCount(count + 1)}>{count}</button>;
+}
+```
+
+```ansi filename="test-report.md"
+[0m [0;32m✓[0m [0;2msrc/[0mindex[0;2m.test.ts (1)[0m
+  [0;2m Test Files [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m      Tests [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m   Start at [0m 23:32:41
+  [0;2m   Duration [0m 11ms
+  [42;1;39;0m PASS [0;32m Waiting for file changes...[0m
+         [0;2mpress [0;1mh[0;2m to show help, press [0;1mq[0;2m to quit
+```
+
+### [Steps](https://nextra.site/docs/guide/built-ins/steps)
+
+<Steps>
+
+#### Step 1
+
+Contents for step 1.
+
+#### Step 2
+
+Contents for step 2.
+
+</Steps>
+
+### [Cards](https://nextra.site/docs/guide/built-ins/cards)
+
+<Cards>
+  <Cards.Card icon="⚠️ " title="Callout" href="#callout" />
+  <Cards.Card title="Tabs" href="#tabs" />
+  <Cards.Card title="Steps" href="#steps" />
+</Cards>
+
+### [Filetree](https://nextra.site/docs/guide/built-ins/filetree)
+
+<FileTree>
+  <FileTree.Folder name="pages" defaultOpen>
+    <FileTree.Folder name="others">
+      <FileTree.File name="utils.ts" />
+      <FileTree.File name="index.mdx" />
+    </FileTree.Folder>
+    <FileTree.File name="_meta.js" />
+    <FileTree.File name="contact.md" />
+    <FileTree.File name="index.mdx" />
+  </FileTree.Folder>
+</FileTree>
+
+### [Tabs](https://nextra.site/docs/guide/built-ins/tabs)
+
+<Tabs items={["pnpm", "npm", "yarn"]}>
+  <Tabs.Tab>**pnpm**: Fast, disk space efficient package manager.</Tabs.Tab>
+  <Tabs.Tab>
+    **npm** is a package manager for the JavaScript programming language.
+  </Tabs.Tab>
+  <Tabs.Tab>**Yarn** is a software packaging system.</Tabs.Tab>
+</Tabs>

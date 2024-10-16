@@ -3,14 +3,12 @@ import { type DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   // REVIEW: https://github.com/shuding/nextra/blob/main/docs/theme.config.tsx
-  chat: {
-    link: "https://discord.gg/hEM84NMkRv", // Next.js discord server,
-  },
+
   editLink: {
     content: "Edit this page on GitHub",
   },
   // docsRepositoryBase: "https://tip-of-the-week.vercel.app",
-  docsRepositoryBase: "http://localhost:3000",
+  docsRepositoryBase: "https://github.com/cbmono/tip-of-the-week/tree/main/",
   faviconGlyph: "✦",
   logo: (
     <span>
@@ -22,8 +20,7 @@ const config: DocsThemeConfig = {
     </span>
   ),
   project: {
-    // link: "https://github.com/cbmono/tip-of-the-week",
-    link: "http://localhost:3000",
+    link: "https://github.com/cbmono/tip-of-the-week",
   },
   head: (
     <>
@@ -34,6 +31,9 @@ const config: DocsThemeConfig = {
   ),
   footer: {
     content: <span>© 2024 by Alteos</span>,
+  },
+  feedback: {
+    content: null,
   },
 };
 

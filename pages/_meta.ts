@@ -1,3 +1,5 @@
 export default {
-  index: "My Homepage",
+  index: "Introduction",
+  nextra: "Nextra",
+  presentations: "Presentations",
 };

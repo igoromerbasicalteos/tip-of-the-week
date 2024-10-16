@@ -13,6 +13,6 @@ const withNextra = nextra({
 export default withNextra({
   // Next.js options
   reactStrictMode: true,
-  basePath: "", // Make sure this doesn't add an extra slash
+  basePath: "",
   assetPrefix: "",
 });
