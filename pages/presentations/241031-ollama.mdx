@@ -1,0 +1,118 @@
+import { Steps } from "nextra/components";
+
+# Ollama Local LLMs
+
+> Author: [Ale](ale@alteos.com)
+> Date: 31.10.2024
+
+This presentation shows how to install Ollama and models to run local LLMs. The main advantages of using Ollama is the flexibility, control over data, and the ability to run models locally without relying on external APIs.
+
+---
+
+## Description
+
+[Ollama](https://ollama.com/docs) is a platform for running large language models (LLMs) locally. It provides tools and libraries to easily set up and manage LLMs on your local machine.
+Some of the features of Ollama include:
+
+- **Local Execution**: Run LLMs on your local machine.
+- **Model Management**: Easily download, install, and manage different models.
+- **Custom Models**: Train and use your own custom models.
+- **Integration**: Integrate with various tools and platforms.
+
+![Start](/ollama/ollama-start.png)
+
+---
+
+## Installation
+
+### Hardware Prerequisites
+
+- A machine with a modern CPU (Intel or AMD).
+- At least 8 GB of RAM.
+- Sufficient disk space to store the models you plan to use.
+- A GPU is recommended but not required for better performance
+
+### Steps
+
+<Steps>
+
+### Install Ollama
+
+First, you need to install Ollama. You can do this going to [Ollama's download page](https://ollama.com/download)
+
+![Download](/ollama/ollama-download.png)
+
+### Verify that Ollama is running
+
+Open the terminal and run the following command:
+
+```bash
+ollama --version
+````
+
+The output expected looks like: `ollama version is 0.3.13`
+
+
+### Search a model
+
+Go the [Ollama's model library](https://ollama.com/library) and search for a model that suits your needs.
+
+![Library](/ollama/ollama-library.png)
+
+### Install a model
+
+Next, you need to install the a model. You can do this using the Ollama CLI:
+
+```bash
+ollama pull <name:version>
+```
+
+Models can take up to several GBs of disk space depending on the amount of parameters they have.
+
+### Verify Installation
+
+To verify that the installation was successful, you can run the following command:
+
+```bash
+ollama list
+```
+
+This should list the recently installed model among the installed models. For example:
+
+|     NAME     |       ID       |   SIZE   |    MODIFIED   |
+| ------------ | :------------: | :------: |  -----------: |
+| qwen2:latest |  dd314f039b9d  |  4.4 GB  |  3 weeks ago  |
+
+### Running the Model
+
+You can now run the model locally using the following command:
+
+```bash
+ollama run <name:version>
+```
+
+The terminal will run in prompt mode and you will start a chat with the model.
+
+![Run Model](/ollama/ollama-run-model.png)
+
+### Chatbot UI
+
+By default the terminal doesn't have nice formatting to interact with, but you can also run the model using a [Chatbot UI](https://github.com/ivanfioravanti/chatbot-ollama)
+
+![Run Model](/ollama/ollama-chatbot.png)
+
+### Next Steps
+
+You can now [integrate the local model with the Continue extension](https://ollama.com/blog/continue-code-assistant) that gives you AI assisted coding like GitHub Copilot for free.
+
+![IDE Integration](/ollama/ollama-continue-integration.png)
+
+</Steps>
+
+---
+
+## Resources
+
+- [Ollama Docs](https://ollama.com/docs)
+- [Chatbot Ollama](https://github.com/ivanfioravanti/chatbot-ollama)
+- [Continue Code Assistant](https://ollama.com/blog/continue-code-assistant)
