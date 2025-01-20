@@ -15,4 +15,5 @@ export default withNextra({
   reactStrictMode: true,
   basePath: "",
   assetPrefix: "",
+  output: "export"
 });
