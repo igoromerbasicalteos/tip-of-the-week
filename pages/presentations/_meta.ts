@@ -7,4 +7,6 @@ export default {
   "241121-mermaid-live": "21.11.24 - Mermaid Live",
   "241128-communication": "28.11.24 - Communication",
   "241205-pomodoro": "05.12.24 - Pomodoro",
+  "250109-time-blocking": "09.01.25 - Time blocking",
+  "250116-dancing": "16.01.25 - Dancing",
 };
