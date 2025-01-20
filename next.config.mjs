@@ -15,5 +15,10 @@ export default withNextra({
   reactStrictMode: true,
   basePath: "",
   assetPrefix: "",
-  output: "export"
+  // Below are the necessary configurations for github pages deployment
+  images: {
+    unoptimized: true,
+  },
+  output: "export",
+  basePath: "/tip-of-the-week"
 });
