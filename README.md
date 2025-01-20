@@ -15,7 +15,7 @@ Here further information about how to use [Nextra Docs](https://nextra.site/docs
 
 ![](.github/so_awesome.gif)
 
-[**Live Demo →**](https://tip-of-the-week-alteos.vercel.app)
+[**Live Demo →**](https://alteos-gmbh.github.io/tip-of-the-week/)
 
 ---
 
@@ -28,11 +28,15 @@ brew install pnpm
 ```
 
 ### 1. Local Development
+
 #### Install dependencies (only the first time)
+
 ```bash
 pnpm i
 ```
+
 #### Run the local development server
+
 ```bash
 pnpm dev
 ```
