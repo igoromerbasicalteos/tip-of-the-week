@@ -1,0 +1,92 @@
+# Accessibility in Design & Development
+
+> Author: [Ivanna](ivh@alteos.com)  
+> Date: 30.01.2025
+
+As we enter a new technological era that will reshape the digital landscape we have become accustomed to, us product & tech people will need to pave the way to creating a more accessible environment. This tip of the week aims to explain the value of accessibility, its real-world impact, and how to apply accessibility principles in their work.
+
+---
+
+## Facts about Accessibility
+
+- Over 2.2 billion people worldwide (27% of the global population) have visual impairments.
+- In Germany, 2.7 million people have moderate to severe vision loss, and 229,000 are blind.
+- Accessibility in Germany is guided by laws like the EU’s European Accessibility Act (EAA) and the Accessibility Streng
+
+---
+
+## Why is Accessibility important?
+
+- Starting June 28, 2025, BFSG mandates accessible digital products and services.
+- Non-compliance risks sanctions, reputational damage, and competitive disadvantages.
+- Accessibility is also an opportunity to expand your audience and improve usability for all.
+
+---
+
+## What does Accessibility mean? What are the core concepts?
+
+Accessibility — concept of whether a product or service can be used by everyone, however they encounter it
+
+- Key elements of accessibility include validation tools, WCAG standards, assistive technology, access to content, and legal requirements.
+- Usability emphasizes ease of use, reaching the broadest audience, user satisfaction, efficiency, and user-centric design.
+- Understanding the intersection of accessibility and usability is crucial for creating effective user experiences.
+
+Core Concept 1 - Guidelines
+
+The Web Content Accessibility Guidelines (WCAG) provide a shared international standard for web accessibility. They developed the POUR approach that defines accessibility guidelines:
+  1. Perceivable - Perceivable means making sure everyone can understand all elements of a design.
+  2. Operable - Providing alternative means of navigation, for people living with permanent disabilities that limit motor function.
+  3. Understandable - Designs should be easy to navigate and read. This means creating a visual hierarchy that emphasises navigation, headings, and content structure.
+  4. Robust - Focus on making designs accessible on different interfaces.
+  
+Core Concept 2 - Testing Criteria
+
+For each guideline, there are testable success criteria of different compliance levels.
+  1. Level A - Level A is the minimum level of accessibility compliance. While WCAG does accept this level as accessible, it actually does not cover all accessibility barriers.
+  2. Level AA - This is the WCAG compliance level you should aim for. Meeting Level AA means a design covers a wide range of accessibility issues and provides an inclusive experience to everyone. 
+  3. Level AAA - This is the highest level of compliance and an indication of a design that has gone above and beyond to address accessibility barriers. Note: This level can be difficult to achieve and is not always necessary.
+
+---
+
+## Best Practises & Tools
+
+Best practices in design to enhance user experience:
+- First, ensure sufficient color contrast. This is crucial for readability and accessibility.
+- Next, use legible typography. Clear text helps users engage with your content effectively.
+- Lastly, offer multiple ways of access, such as search options, menus, and breadcrumb trails. This improves navigation and user satisfaction.
+
+Best practices for development:
+- First, using semantic HTML is crucial. It enhances accessibility and improves SEO.
+- Next, testing keyboard navigation ensures that all users can interact with your site effectively.
+- Lastly, providing error feedback is essential for a positive user experience. It helps users understand and correct their mistakes.
+
+Recommended Tools 
+- Adobe Color: which I prefer over the standard WebAIM Contrast Checker.
+- Contrast: an easy Figma plugin that scans designs against WCAG testing criteria.
+- Axe DevTools: a web extension that automatically identifies accessibility defects.
+- WAVE: a web accessibility evaluation tool provided by WebAIM.
+
+---
+
+## Wrap Up
+
+- Accessibility = inclusivity, compliance, and opportunity.
+- Start small with color contrast, semantic HTML, and alt text.
+- Use tools like Lighthouse and axe DevTools to test accessibility.
+
+---
+
+## Resources
+
+- https://www.interaction-design.org/literature/topics/accessibility?utm_source=chatgpt.com#what_is_accessibility?-0
+- https://www.statista.com/statistics/1200862/vision-impairments-by-severity-in-germany/
+- https://www.audioeye.com/post/accessibility-statistics/
+- https://aeldata.com/web-accessibility-statistics-is-reshaping-digital-landscape/
+- https://www.w3.org/WAI/standards-guidelines/wcag/
+- https://weventure.de/en/blog/digital-accessibility-will-become-law-in-2025
+- https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/barrierefreiheitsstaerkungsgesetz/barrierefreiheitsstaerkungsgesetz-node.html
+- https://venngage.com/blog/pour-principles/
+- https://www.semrush.com/blog/semantic-html5-guide/
+- https://accessibility.education.gov.uk/knowledge-hub/common-issues/error-messages
+- https://www.nngroup.com/articles/web-form-design/
+- https://www.a11y-collective.com/blog/keyboard-navigation/
