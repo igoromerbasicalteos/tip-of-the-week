@@ -9,4 +9,6 @@ export default {
   "241205-pomodoro": "05.12.24 - Pomodoro",
   "250109-time-blocking": "09.01.25 - Time blocking",
   "250116-dancing": "16.01.25 - Dancing",
+  "250123-oclp": "23.01.25 - OCLP",
+  "250130-accessibility": "30.01.25 - Accessibility",
 };
