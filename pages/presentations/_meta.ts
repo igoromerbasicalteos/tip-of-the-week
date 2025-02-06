@@ -11,4 +11,5 @@ export default {
   "250116-dancing": "16.01.25 - Dancing",
   "250123-oclp": "23.01.25 - OCLP",
   "250130-accessibility": "30.01.25 - Accessibility",
+  "250206-data-brokers": "06.02.25 - Data Brokers",
 };
