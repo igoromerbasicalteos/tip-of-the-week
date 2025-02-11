@@ -12,4 +12,5 @@ export default {
   "250123-oclp": "23.01.25 - OCLP",
   "250130-accessibility": "30.01.25 - Accessibility",
   "250206-data-brokers": "06.02.25 - Data Brokers",
+  "250213-the-eisenhower-matrix": "13.02.25 - The Eisenhower Matrix",
 };
