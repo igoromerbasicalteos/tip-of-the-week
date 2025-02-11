@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
   editLink: {
     content: "Edit this page on GitHub",
   },
-  docsRepositoryBase: "https://github.com/cbmono/tip-of-the-week/tree/main",
+  docsRepositoryBase: "https://github.com/alteos-gmbh/tip-of-the-week/tree/main",
   faviconGlyph: "✦",
   logo: (
     <span>
@@ -19,7 +19,7 @@ const config: DocsThemeConfig = {
     </span>
   ),
   project: {
-    link: "https://github.com/cbmono/tip-of-the-week",
+    link: "https://github.com/alteos-gmbh/tip-of-the-week",
   },
   head: () => {
     const config = useConfig();
@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
     );
   },
   footer: {
-    content: <span>© 2024 by Alteos</span>,
+    content: <span>© 2025 by Alteos</span>,
   },
   feedback: {
     content: null,
