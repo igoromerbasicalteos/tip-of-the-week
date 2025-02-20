@@ -1,0 +1,216 @@
+{
+  "id": "627870b4-502b-4570-9be1-04b5197dd402",
+  "name": "hearing_aids",
+  "interactions": [
+    {
+      "id": "1e49a4dd-ec51-41d0-9135-e79a812af2ff",
+      "type": "CLICK",
+      "key": "_container_6oblr_722",
+      "searchType": "class",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "0858b96c-efba-4377-a9ef-7e8348ea3429",
+      "type": "INPUT",
+      "key": "values_itemValue",
+      "value": "bis 500,00 €",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "2a8160d4-ac72-4500-8df9-d2ece5b00aa5",
+      "type": "CLICK",
+      "key": "react-select-2-option-0",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "e67dbb8f-06de-4970-9378-d9c8b76f2a6f",
+      "type": "INPUT",
+      "key": "values_purchasedAt",
+      "value": "17.02.2025",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "a0979079-9db8-41d0-8799-2739055ee2aa",
+      "type": "CLICK",
+      "key": "[data-test=\"selling-flow-submit-button\"]",
+      "searchType": "cssSelector",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "9758d14b-da71-4a71-9a52-99fa2ec49249",
+      "type": "INPUT",
+      "key": "values_brand1",
+      "value": "Brand_1",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "568c96ea-e46d-41c2-8ea8-10ffdaf3cb0c",
+      "type": "INPUT",
+      "key": "values_model1",
+      "value": "Model_1",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "655c32af-c45e-419e-ade2-5f6339d0f8d4",
+      "type": "INPUT",
+      "key": "values_serialNum1",
+      "value": "Serial_num_1",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "8d0c5cd9-1c4f-4b85-8707-0a8eb0327802",
+      "type": "CLICK",
+      "key": "button[type=\"submit\"]",
+      "searchType": "cssSelector",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "6c927213-bf4a-4d8c-9e1f-00b936eeb2b1",
+      "type": "INPUT",
+      "key": "customer_values_salutation",
+      "value": "Herr",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "82c52d66-4ae1-4226-a6e9-cc13c05a06e6",
+      "type": "CLICK",
+      "key": "react-select-3-option-0",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "bcaace9e-6024-44a6-9496-5910c4ef8f72",
+      "type": "INPUT",
+      "key": "customer_firstName",
+      "value": "Artur",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "bb78e431-94dd-4085-8ac0-140dfefce8d2",
+      "type": "INPUT",
+      "key": "customer_lastName",
+      "value": "Test",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "fe1278ac-4ae9-4c63-9f0d-bdd8bfaf4354",
+      "type": "INPUT",
+      "key": "customer_values_dateOfBirth",
+      "value": "17.02.2007",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "bc5e2f30-a9d3-4b76-a092-da572e9bc800",
+      "type": "INPUT",
+      "key": "helpers_googleAddress",
+      "value": "13187, Berlin, Berliner Straße",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "c59a2aec-21c9-4612-8d8c-ee080ed37de5",
+      "type": "INPUT",
+      "key": "helpers_googleHouseNumber",
+      "value": "10",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "41a1ea8e-aeb4-4eb6-b14d-919f103af1da",
+      "type": "INPUT",
+      "key": "customer_phone",
+      "value": "0123456789",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "1648b692-c6c1-483d-b34d-1fe8b11fe2d2",
+      "type": "INPUT",
+      "key": "customer_email",
+      "value": "arr@alteos.com",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "24feaae8-b697-4407-876b-6ec2369b8bc2",
+      "type": "INPUT",
+      "key": "helpers_emailConfirmation",
+      "value": "arr@alteos.com",
+      "fieldType": "text",
+      "searchType": "id",
+      "fields": [
+        {}
+      ]
+    },
+    {
+      "id": "0ff68fbd-e87d-4639-9fb3-ccf6740e9cd4",
+      "type": "CLICK",
+      "key": "button[type=\"submit\"]",
+      "searchType": "cssSelector",
+      "fields": [
+        {}
+      ]
+    }
+  ],
+  "updatedAt": "2025-02-18T20:54:41.048Z",
+  "createdAt": "2025-02-17T20:45:31.632Z"
+}
